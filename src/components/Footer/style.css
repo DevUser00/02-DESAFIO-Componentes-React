@@ -1,0 +1,34 @@
+.footer {
+   background-color: var(--color-blue);
+   color: var(--color-white);
+   height: 120px;
+}
+
+.footer {
+   display: flex;
+   align-items: center;
+}
+
+.nav {
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+}
+
+@media(min-width: 300px) {
+   .footer p {
+      display: block;
+      text-align: center;
+   }
+
+   .nav {
+      display: block;
+      justify-content: none;
+      align-items: none;
+   }
+
+   .nav-bottun-street {
+      margin-top: 10px;
+      font-style: italic;
+   }
+}

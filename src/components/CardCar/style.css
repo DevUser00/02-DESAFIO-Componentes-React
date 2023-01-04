@@ -1,0 +1,38 @@
+.card {
+   border: 1px solid #3C9AF0;
+   border-radius: 10px;
+   width: 746px;
+}
+
+.card-bottom h2 {
+   font-weight: 700;
+   font-size: 20px;
+   line-height: 30px;
+   color: var(--color-black-grey);
+}
+
+.card {
+   display: grid;
+   align-items: center;
+   justify-items: center;
+}
+
+.card-top img {
+   max-width: 100%;
+   width: 391px;
+   height: 292px;
+   padding: 10px;
+}
+
+@media(min-width: 300px) {
+   .card {
+     max-width: 280px;
+     max-height: 248px;
+ }
+
+ .card img {
+   max-width: 260px;
+   max-height: 194.46px;
+ }
+
+}

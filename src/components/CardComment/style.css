@@ -1,0 +1,32 @@
+.card {
+   background-color: var(--color-white);
+   border: 1px solid #3C9AF0;
+   border-radius: 12px;
+}
+
+.card p {
+   color: var(--color-blue);
+}
+
+.card {
+   padding: 20px 0px;
+}
+
+.card {
+   width: 960px;
+}
+
+.card-mid {
+   padding-right: 128px;
+}
+
+
+@media(min-width: 300px) {
+   .card-mid p{
+      margin: 15px 30px;
+   }
+
+   .card-mid {
+      padding-right: 0;
+   }
+}

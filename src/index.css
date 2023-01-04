@@ -1,0 +1,44 @@
+/*config colors and reset page*/
+:root {
+   --color-blue: #3C9AF0;
+   --color-white: #FFFFFF;
+   --color-black-grey: #5E5E5E;
+   --color-grey: #C8C8C8;
+}
+
+* {
+   box-sizing: border-box;
+   margin: 0;
+   padding: 0;
+   font-family: "Open Sans";
+}
+
+a,
+a:hover {
+   text-decoration: none;
+   color: unset;
+}
+
+/* init css */
+.container-principal {
+   width: 100%;
+   max-width: 960px;
+   margin: 0 auto;
+}
+
+.mb25 {
+   margin-bottom: 25px;
+}
+
+.mt25 {
+   margin-top: 25px;
+}
+
+.cards {
+   display: grid;
+   place-items: center;
+   align-items: center;
+   justify-items: center;
+}
+
+ 
